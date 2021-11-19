@@ -4,5 +4,35 @@
 
 /* Code Harrizon start */
 
+body {
+	background-color: #dbf4d4;
+	margin: 0;
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.main-container {
+	width: 75%;
+}
+
+.table {
+	background-color: brown;
+	width: 100%;
+	height: 1.5em;
+}
+
+.cactuses {
+	display: flex;
+	justify-content: space-between;
+}
+
+.cactus {
+	height: 14em;
+	width: 10em;
+	background-color: green;
+}
 
  /* code harrizon ends */
