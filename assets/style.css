@@ -537,14 +537,14 @@ body {
 	height: 100%;
 	margin: 0 auto;
 	border-radius: 25px 25px 0 0;
-	background-color: black;
+	background-color: var(--primary-color);
 	/*background-image: linear-gradient(to right, black 2px, gray 2px),*/
 }
 
 .c1-rama-1 {
 	height: 3.7em;
 	width: 50%;
-	background-color: black;
+	background-color: var(--primary-color);
 	border-radius: 0 0 0 25px;
 	position: absolute;
 	bottom: 20%;
@@ -554,7 +554,7 @@ body {
 .c1-rama-2 {
 	width: 3.7em;
 	height: 30%;
-	background-color: black;
+	background-color: var(--primary-color);
 	border-radius: 25px 25px 0 0;
 	position: absolute;
 	left: 0;
@@ -564,7 +564,7 @@ body {
 .c2-base {
 	width: 100%;
 	height: 70%;
-	background-color: black;
+	background-color: var(--primary-color);
 	border-radius: 100px;
 	position: absolute;
 	bottom: -1em;
