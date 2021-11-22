@@ -1,5 +1,476 @@
 /* Code Jaider starts */
 
+
+:root {
+    --primary-color: #4F761A;
+    --secondary-color: #5B8A1A;
+    --tertiary-color: #79AB30;
+    --quaternary-color: #558315;
+    --dark-green: #4E7711;
+    --cactus-thorns: #dbf4d4;
+}
+
+.cactus-body {
+    height: 13em;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.c3-rama-1-1 {
+    background-color: var(--primary-color);
+    width: 3.5em;
+    height: 8.5em;
+    position: absolute;
+    border-top-left-radius: 300px;
+    border-bottom-left-radius: 300px;
+    bottom: -1em;
+    z-index: -1;
+    margin-right: 3.5em;
+}
+.c3-rama-1-2 {
+    background-color: var(--secondary-color);
+    width: 3.5em;
+    height: 8.5em;
+    position: absolute;
+    border-top-right-radius: 300px;
+    border-bottom-right-radius: 300px;
+    bottom: -1em;
+    z-index: -1;
+    margin-left: 3.5em;
+}
+
+.c3-rama-2-1 {
+    background-color: var(--primary-color);
+    height: 6em;
+    width: 2.25em;
+    position: absolute;
+    border-top-left-radius: 500px;
+    border-bottom-left-radius: 500px;
+    margin-bottom: 3.75em;
+    margin-left: 9em;
+    transform: rotate(40deg);
+}
+
+.c3-rama-2-2 {
+    background-color: var(--secondary-color);
+    height: 6em;
+    width: 2.25em;
+    position: absolute;
+    border-top-right-radius: 500px;
+    border-bottom-right-radius: 500px;
+    margin-bottom: 2.5em;
+    margin-left: 12em;
+    transform: rotate(40deg);
+}
+
+.c3-rama-3-1 {
+    background-color: var(--primary-color);
+    height: 4em;
+    width: 1.5em;
+    position: absolute;
+    border-top-left-radius: 700px;
+    border-bottom-left-radius: 700px;
+    margin-bottom: 8.8em;
+    margin-left: 11em;
+    transform: rotate(20deg);
+}
+
+.c3-rama-3-2 {
+    background-color: var(--secondary-color);
+    height: 4em;
+    width: 1.5em;
+    position: absolute;
+    border-top-right-radius: 700px;
+    border-bottom-right-radius: 700px;
+    margin-bottom: 8.3em;
+    margin-left: 13.7em;
+    transform: rotate(20deg);
+}
+
+.c4-rama-1 {
+    background-color: var(--quaternary-color);
+    height: 14em;
+    width: 6em;
+    position: absolute;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    bottom: -1em;
+    z-index: -1;
+}
+
+.c4-rama-2 {
+    background-color: var(--tertiary-color);
+    height: 7em;
+    width: 4.5em;
+    position: absolute;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    margin-right: 4em;
+}
+
+.c-dot-1-r1 {
+    background-color: var(--cactus-thorns);
+    position: absolute;
+    width: 0.2em;
+    height: 0.2em;
+    border-radius: 50%;
+    margin-bottom: 0.5em;
+}
+
+.c-dot-2-r1 {
+    background-color: var(--cactus-thorns);
+    position: absolute;
+    width: 0.2em;
+    height: 0.2em;
+    border-radius: 50%;
+    margin-bottom: 0.5em;
+    margin-left: 2.5em;
+}
+
+.c-dot-3-r1 {
+    background-color: var(--cactus-thorns);
+    position: absolute;
+    width: 0.2em;
+    height: 0.2em;
+    border-radius: 50%;
+    margin-bottom: 0.5em;
+    margin-right: 2.5em;
+}
+
+.c-dot-4-r1 {
+    background-color: var(--cactus-thorns);
+    position: absolute;
+    width: 0.2em;
+    height: 0.2em;
+    border-radius: 50%;
+    margin-bottom: 0.5em;
+    margin-left: 5em;
+}
+
+.c-dot-5-r1 {
+    background-color: var(--cactus-thorns);
+    position: absolute;
+    width: 0.2em;
+    height: 0.2em;
+    border-radius: 50%;
+    margin-bottom: 0.5em;
+    margin-right: 5em;
+}
+
+.c-dot-1-r2 {
+    background-color: var(--cactus-thorns);
+    position: absolute;
+    width: 0.2em;
+    height: 0.2em;
+    border-radius: 50%;
+    margin-bottom: 2em;
+}
+
+.c-dot-2-r2 {
+    background-color: var(--cactus-thorns);
+    position: absolute;
+    width: 0.2em;
+    height: 0.2em;
+    border-radius: 50%;
+    margin-bottom: 2em;
+    margin-left: 2.5em;
+}
+
+.c-dot-3-r2 {
+    background-color: var(--cactus-thorns);
+    position: absolute;
+    width: 0.2em;
+    height: 0.2em;
+    border-radius: 50%;
+    margin-bottom: 2em;
+    margin-right: 2.5em;
+}
+
+.c-dot-4-r2 {
+    background-color: var(--cactus-thorns);
+    position: absolute;
+    width: 0.2em;
+    height: 0.2em;
+    border-radius: 50%;
+    margin-bottom: 2em;
+    margin-left: 5em;
+}
+
+.c-dot-5-r2 {
+    background-color: var(--cactus-thorns);
+    position: absolute;
+    width: 0.2em;
+    height: 0.2em;
+    border-radius: 50%;
+    margin-bottom: 2em;
+    margin-right: 5em;
+}
+
+.c-dot-1-r3 {
+    background-color: var(--cactus-thorns);
+    position: absolute;
+    width: 0.2em;
+    height: 0.2em;
+    border-radius: 50%;
+    margin-bottom: 4em;
+}
+
+.c-dot-2-r3 {
+    background-color: var(--cactus-thorns);
+    position: absolute;
+    width: 0.2em;
+    height: 0.2em;
+    border-radius: 50%;
+    margin-bottom: 4em;
+    margin-left: 2.5em;
+}
+
+.c-dot-3-r3 {
+    background-color: var(--cactus-thorns);
+    position: absolute;
+    width: 0.2em;
+    height: 0.2em;
+    border-radius: 50%;
+    margin-bottom: 4em;
+    margin-right: 2.5em;
+}
+
+.c-dot-4-r3 {
+    background-color: var(--cactus-thorns);
+    position: absolute;
+    width: 0.2em;
+    height: 0.2em;
+    border-radius: 50%;
+    margin-bottom: 4em;
+    margin-left: 5em;
+}
+
+.c-dot-5-r3 {
+    background-color: var(--cactus-thorns);
+    position: absolute;
+    width: 0.2em;
+    height: 0.2em;
+    border-radius: 50%;
+    margin-bottom: 4em;
+    margin-right: 5em;
+}
+
+.c-dot-1-r4 {
+    background-color: var(--cactus-thorns);
+    position: absolute;
+    width: 0.2em;
+    height: 0.2em;
+    border-radius: 50%;
+    margin-bottom: 6em;
+}
+
+.c-dot-2-r4 {
+    background-color: var(--cactus-thorns);
+    position: absolute;
+    width: 0.2em;
+    height: 0.2em;
+    border-radius: 50%;
+    margin-bottom: 6em;
+    margin-left: 2.5em;
+}
+
+.c-dot-3-r4 {
+    background-color: var(--cactus-thorns);
+    position: absolute;
+    width: 0.2em;
+    height: 0.2em;
+    border-radius: 50%;
+    margin-bottom: 6em;
+    margin-right: 2.5em;
+}
+
+.c-dot-4-r4 {
+    background-color: var(--cactus-thorns);
+    position: absolute;
+    width: 0.2em;
+    height: 0.2em;
+    border-radius: 50%;
+    margin-bottom: 6em;
+    margin-left: 5em;
+}
+
+.c-dot-5-r4 {
+    background-color: var(--cactus-thorns);
+    position: absolute;
+    width: 0.2em;
+    height: 0.2em;
+    border-radius: 50%;
+    margin-bottom: 6em;
+    margin-right: 5em;
+}
+
+.c-dot-1-r1-b2 {
+    background-color: var(--cactus-thorns);
+    position: absolute;
+    width: 0.2em;
+    height: 0.2em;
+    border-radius: 50%;
+    margin-bottom: 5em;
+    margin-left: 8em;
+}
+
+.c-dot-2-r1-b2 {
+    background-color: var(--cactus-thorns);
+    position: absolute;
+    width: 0.2em;
+    height: 0.2em;
+    border-radius: 50%;
+    margin-bottom: 4.3em;
+    margin-left: 9.5em;
+}
+
+.c-dot-3-r1-b2 {
+    background-color: var(--cactus-thorns);
+    position: absolute;
+    width: 0.2em;
+    height: 0.2em;
+    border-radius: 50%;
+    margin-bottom: 5.7em;
+    margin-left: 6.6em;
+}
+
+.c-dot-1-r2-b2 {
+    background-color: var(--cactus-thorns);
+    position: absolute;
+    width: 0.2em;
+    height: 0.2em;
+    border-radius: 50%;
+    margin-bottom: 6em;
+    margin-left: 10em;
+}
+
+.c-dot-2-r2-b2 {
+    background-color: var(--cactus-thorns);
+    position: absolute;
+    width: 0.2em;
+    height: 0.2em;
+    border-radius: 50%;
+    margin-bottom: 6.5em;
+    margin-left: 8.5em;
+}
+
+.c-dot-3-r2-b2 {
+    background-color: var(--cactus-thorns);
+    position: absolute;
+    width: 0.2em;
+    height: 0.2em;
+    border-radius: 50%;
+    margin-bottom: 5.2em;
+    margin-left: 11.5em;
+}
+
+.c-dot-1-r3-b2 {
+    background-color: var(--cactus-thorns);
+    position: absolute;
+    width: 0.2em;
+    height: 0.2em;
+    border-radius: 50%;
+    margin-bottom: 7em;
+    margin-left: 12em;
+}
+
+.c-dot-2-r3-b2 {
+    background-color: var(--cactus-thorns);
+    position: absolute;
+    width: 0.2em;
+    height: 0.2em;
+    border-radius: 50%;
+    margin-bottom: 7.5em;
+    margin-left: 10em;
+}
+
+.c-dot-3-r3-b2 {
+    background-color: var(--cactus-thorns);
+    position: absolute;
+    width: 0.2em;
+    height: 0.2em;
+    border-radius: 50%;
+    margin-bottom: 6em;
+    margin-left: 13em;
+}
+
+.c-dot-1-r1-b3 {
+    background-color: var(--cactus-thorns);
+    position: absolute;
+    width: 0.2em;
+    height: 0.2em;
+    border-radius: 50%;
+    margin-bottom: 9.5em;
+    margin-left: 13em;
+}
+
+.c-dot-2-r1-b3 {
+    background-color: var(--cactus-thorns);
+    position: absolute;
+    width: 0.2em;
+    height: 0.2em;
+    border-radius: 50%;
+    margin-bottom: 10em;
+    margin-left: 10.5em;
+}
+
+.c-dot-1-r2-b3 {
+    background-color: var(--cactus-thorns);
+    position: absolute;
+    width: 0.2em;
+    height: 0.2em;
+    border-radius: 50%;
+    margin-bottom: 11em;
+    margin-left: 11.5em;
+}
+
+.c-dot-2-r2-b3 {
+    background-color: var(--cactus-thorns);
+    position: absolute;
+    width: 0.2em;
+    height: 0.2em;
+    border-radius: 50%;
+    margin-bottom: 10.5em;
+    margin-left: 13.5em;
+}
+
+.line-c-1 {
+    background-color: var(--dark-green);
+    position: absolute;
+    width: 0.5em;
+    height: 12.9em;
+}
+
+.line-c-2 {
+    background-color: var(--dark-green);
+    position: absolute;
+    width: 0.5em;
+    height: 12.3em;
+    margin-left: 3em;
+    border-top-right-radius: 100%;
+}
+
+.line-c-3 {
+    background-color: var(--dark-green);
+    position: absolute;
+    width: 0.5em;
+    height: 12.3em;
+    margin-right: 3em;
+    border-top-left-radius: 100%;
+}
+
+.line-c-4 {
+    background-color: var(--dark-green);
+    position: absolute;
+    width: 0.5em;
+    height: 8em;
+    margin-right: 6em;
+    border-top-left-radius: 100%;
+}
+
+
 /* code Jaider ends */
 
 /* Code Harrizon start */
